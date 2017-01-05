@@ -1,0 +1,336 @@
+@charset "utf-8";
+html{
+	font: 12px '宋体';
+}
+a{
+	color: black;
+}
+.top{
+	background-color: #F7F7F7;
+	height: 26px;
+	border-bottom: 1px solid #D8D8D8;
+}
+.top_page{
+	width: 970px;
+	height:  26px; 
+	margin: 0 auto;
+}
+.top_page_l{
+	line-height: 26px;
+}
+.top_page_r ul li{
+	float: left;
+	padding-right: 10px;
+	line-height: 26px;
+}
+.top_page_r ul li s{
+	width: 15px;
+	height: 12px;
+	background: url(../image/spirit.png);
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo{
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+}
+.logo_l{
+	width:324px;
+	height: 55px;
+	margin: 20px 0px 10px 5px;
+	background: url(../image/spirit.png) -20px 0px;
+	text-indent: -1000px;
+}
+.logo_r{
+	width: 530px;
+	height: 42px;
+	border: 1px solid #C9C9C9;
+	margin-top: 29px;
+}
+.logo_r_content{
+	margin: 5px 5px 5px 4px;
+}
+.logo_r_search{
+	width: 418px;
+	height: 28px;
+	border: 1px solid #C9C9C9;
+	color: #999999;
+}
+.logo_r_btn{
+	width: 100px;
+	height: 30px;
+	color:snow;
+	background-color: blue;
+}
+.nav{
+	width: 970px;
+	height: 25px;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+.nav li{
+	padding:0 15px 0 15px;
+	float: left;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.nav li a{
+	color: #0266A3;
+}
+.nav li:hover{
+	background-color: #0266A3;
+	color: #0266A3;
+}
+.nav li:hover a{
+	color: snow;
+}
+.banner{
+	width:970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.subnav{
+	margin-right: 10px;
+	width: 200px;
+	height: 210px; 
+}
+.ad{
+	width: 520px;
+	height: 210px;
+	background: url(../image/fz1z.png);
+}
+.message{
+	width: 230px;
+	height: 210px;
+}
+.subnav h2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #0266A3;
+	color: white;
+	padding-left: 20px;
+}
+.subnav ul{
+	background-color: #EBF0F6;
+	height: 180px;
+}
+.subnav ul li{
+	padding-top: 11px;
+	font-size: 15px;
+	margin-left: 9px;
+}
+.subnav ul li a{
+	padding-left: 15px;
+}
+.subnav ul li s{
+	display: inline-block;
+	width: 25px;
+	height: 13px;
+	background: url(../image/spirit.png) -190px -80px;
+	vertical-align: middle;
+}
+.message_top{
+	width: 228px;
+	height: 95px;
+	border: 1px solid #DDDDDD;
+	background-color: #F7FAFF;
+	margin-bottom: 20px;
+}
+.message_top .fw{
+	font-weight: bold;
+	padding:7px 0 0 8px;
+}
+.message_top s{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../image/spirit.png) -30px 0;
+	margin: 20px 10px 0 10px;
+}
+.message_top .cheap{
+	margin-top:25px;
+}
+.message_bottom{
+	width: 228px;
+	height: 92px;
+	background-color: #F7F7F7;
+}
+.message_bottom .findmessage{
+	text-align: center;
+	font-size: 14px;
+	color: blue;
+	padding-top: 10px;
+}
+.message_bottom .phone {
+	text-align: center;
+	color: #3F9CE0;
+	margin-top: 10px;
+}
+.message_bottom .phone s{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../image/spirit.png) -192px -98px;
+	vertical-align: middle;
+}
+.message_bottom .message_btn{
+	margin-top:9px;
+	margin-left:82px;
+	width: 66px;
+	height: 22px;
+	background: url(../image/spirit.png) -192px -115px;
+}
+.material{
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 14px;
+	height: 34px;
+	border-top: 2px solid #C3D7E4;
+	background-color: #ECF1F7;
+	line-height: 34px;
+	font-weight: bold;
+	padding-left: 20px; 
+}
+.product{
+	width: 970px;
+	height: 345px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+.product .product_l{
+	width: 738px;
+	height: 345px;	
+	border: 1px solid #D8D8D8;
+}
+.product .product_l .product_l_top{
+	height: 155px;
+	width: 712px;
+	padding: 17px 0 0 26px;
+}
+.product .product_l .product_l_top .product_1{
+	width: 350px;
+	height: 146px;
+}
+.product .product_l .product_l_top .product_1 .pro_buy{
+	width: 99px;
+	height: 143px;	
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_img{
+	border: 1px solid #CACACA;
+	height: 100px;	
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_img .s1{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../image/spirit.png) 0px -80px;
+	margin: 10px 4px 0 3px;
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_img .s2{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../image/spirit.png) -94px -80px;
+	margin: 10px 4px 0 3px;
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_img .s3{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../image/spirit.png) 0px -146px;
+	margin: 10px 4px 0 3px;
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_img .s4{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../image/spirit.png) -94px -146px;
+	margin: 10px 4px 0 3px;
+}
+.product .product_l .product_l_top .product_1 .pro_buy .buy_btn{
+	width: 99px;
+	height: 26px;
+	background-color: darkblue;
+	color: snow;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain{
+	width: 250px;
+	height: 143px;	
+}
+.product .product_l .product_l_top .product_1 .pro_explain .maitian{
+	font-size: 14px;
+	padding: 10px 0 0 10px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain .author_press{
+	font-size: 12px;
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain .prize{
+	padding: 23px 0 0 11px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain .prize span{
+	font-size: 12px;
+	color: red;
+	padding: 13px 0 0 15px;
+}
+.product .product_l .product_l_top .product_1 .pro_explain .prize s{
+	text-decoration: line-through;
+}
+.product .product_l .product_l_line{
+	margin: 0 4px 0 4px;
+	border-top: 1px solid #CCCCCC;
+}
+.product .product_r{
+	width: 220px;
+	height: 345px;
+	border: 1px solid #E0E6F0;
+}
+.product .product_r h2{
+	font-weight: bold;
+}
+.product .product_r h2{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid #E0E6F0;
+}
+.product .product_r ul {
+	padding-top: 11px;
+}
+.product .product_r ul li{
+	line-height: 23px;
+	padding-left: 26px;
+}
+.link{
+	width: 970px;
+	height: 73px;
+	margin: 0 auto;
+	margin-top: 11px;
+	border-top: 1px solid #DDD;
+	border-bottom: 3px solid #0A7EC3;
+	color: #666;
+}
+.link .link_p1{
+	margin-top: 30px;
+}
+.aboutus{
+	height: 41px;
+	width: 970px;
+	margin: 0 auto;
+}
+.aboutus p{
+	margin-top: 4px;
+	text-align: center;
+}
